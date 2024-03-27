@@ -3,3 +3,5 @@ InvoiceList.txt
 Invoice.txt
 .idea/
 out/
+
+*.iml
