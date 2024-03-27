@@ -1,0 +1,1 @@
+abstract class or interface that extends/implements the base component interface and has a reference to the base component.

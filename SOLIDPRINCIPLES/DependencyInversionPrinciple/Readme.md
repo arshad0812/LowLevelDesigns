@@ -1,0 +1,2 @@
+<h1>Dependency Inversion Principle</h1>
+<h3>According to DIP, high-level modules should not depend on low-level modules; instead, both should depend on abstractions. This means that both high-level and low-level modules should rely on interfaces or abstract classes rather than specific implementations</h3>
