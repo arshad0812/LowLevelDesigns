@@ -1,0 +1,17 @@
+package models;
+
+public class LockedState extends PhoneState {
+
+	@Override
+	public String OnHomeState() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String OffOnstate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,15 @@
+package Models;
+
+public class main {
+
+	public static void main(String args[]){
+		System.out.println("Inteface Segregation Principle");
+		Developer dev=new Developer();
+		Tester test=new Tester();
+		
+		dev.develop();
+		dev.Attendance();
+		test.Attendance();
+		test.test();
+	}
+}

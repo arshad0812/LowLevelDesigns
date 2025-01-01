@@ -1,0 +1,16 @@
+package models;
+
+import java.util.List;
+
+public class ProxyInternet implements Internet{
+	
+	private Internet internet;
+	private List<String> BannedSites;
+
+	@Override
+	public void search(String SearchQuery) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package models;
+
+public class OnState extends PhoneState{
+
+	
+
+	@Override
+	public String OnState() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Offstate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,31 @@
+package Models;
+
+public class Developer implements DailyWork,Development{
+
+	@Override
+	public void develop() {
+		System.out.println("Developing");
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void FixBug() {
+		System.out.println("fixing Bugs");
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void AttendMeeting() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Attendance() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

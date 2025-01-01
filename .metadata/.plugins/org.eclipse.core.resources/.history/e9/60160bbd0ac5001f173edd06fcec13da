@@ -1,0 +1,36 @@
+package Models;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class NewAgency implements Subject{
+		
+	private String news;
+	private ArrayList<Observer> subscribers;
+	
+	public NewAgency(){
+		this.subscribers=new ArrayList<>();
+	}
+	
+	@Override
+	public void addObserver() {
+		
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeObserver() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void notifyObserver() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

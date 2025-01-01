@@ -1,0 +1,10 @@
+package main;
+public class main {
+	public static void main(String args[]){
+		System.out.println("Stratergy Design Pattern");
+		System.out.println("The Strategy Design Pattern is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one in a separate class, and make them interchangeable");
+		
+		
+		payment Payment1=new CreditCardPayment("12sdf1243","12231",Date.Now());
+	}
+}

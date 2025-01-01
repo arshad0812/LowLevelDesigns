@@ -1,0 +1,15 @@
+package models;
+
+public class Application {
+
+	public Button button;
+	public Checkbox checkbox;
+	
+	
+	public Application(Button button,Checkbox checkbox) {
+		this.button=button;
+		this.checkbox=checkbox;
+	}
+	
+	
+}

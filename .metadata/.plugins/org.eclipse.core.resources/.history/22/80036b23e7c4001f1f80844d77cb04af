@@ -1,0 +1,26 @@
+package Dao;
+
+import java.util.Date;
+
+import models.payment;
+
+public class PaymentService {
+	
+	private payment Payment;
+	private Date date;
+	private String name;
+	private double amount; 	
+	
+	public  PaymentService(payment Payment,Date date,String name,double amount){
+		this.Payment=Payment;
+		this.amount=amount;
+		this.date=date;
+		this.name=name;
+	}
+	
+	public void proceedtopay(){
+		Payment.pay(amount);
+	}
+	
+
+}

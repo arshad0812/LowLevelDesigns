@@ -1,0 +1,11 @@
+package models;
+
+public class main {
+
+	public static void main(){
+		
+		System.out.println("The Null Object Pattern is a design pattern used in Low-Level Design (LLD) to avoid dealing with null checks in your code by introducing a special object that represents \"nothing\" or \"null behavior");
+		
+		
+	}
+}

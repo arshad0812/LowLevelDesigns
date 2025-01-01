@@ -1,0 +1,31 @@
+package models;
+
+public class OnState extends PhoneState{
+
+	@Override
+	public String OnLock() {
+		
+		System.out.println("Phone is turned on");
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Onstate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Offstate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String OnUnlocked() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

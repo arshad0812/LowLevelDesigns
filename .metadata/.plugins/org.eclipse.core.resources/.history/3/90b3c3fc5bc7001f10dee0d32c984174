@@ -1,0 +1,11 @@
+package models;
+
+public class main {
+	public static void main(String args[]) {
+		System.out.println("The State Design Pattern is a behavioral design pattern that allows an object to change its behavior dynamically based on its internal state.");
+		
+		Phone ph1=new Phone();
+		ph1.getState().CurrentState();
+	}
+
+}

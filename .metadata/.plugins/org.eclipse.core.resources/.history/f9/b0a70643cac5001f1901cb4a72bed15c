@@ -1,0 +1,35 @@
+package models;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Database {
+	
+	private final Map<String,String> UserCredientials;
+	
+	public Database(){
+		this.UserCredientials=new HashMap<String,String>();
+		UserCredientials.put("Arshad","dahsrA*0812");
+	}
+	
+	public boolean isValidUser(String username){
+		if(UserCredientials.containsKey(username)) {
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean isValidPassword(String username,String password){
+		if(UserCredientials.containsKey(password)){
+			if(UserCredientials.get(username).equals(password)) {
+				return true;
+			}
+			return false;
+		}
+		return false;
+	}
+	
+	
+	
+
+}

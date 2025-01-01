@@ -1,0 +1,25 @@
+package models;
+
+public class OnState extends PhoneState{
+
+	@Override
+	public void PowerButton(Phone phone) {
+		// TODO Auto-generated method stub
+		System.out.println("Phone Turning Off");
+		phone.setState(new OffState());
+	}
+
+	@Override
+	public void LockButton() {
+		System.out.println("Phone Turning Off");
+		super.phone.setState(new LockedState());
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+	
+
+
+}

@@ -1,0 +1,23 @@
+package Models;
+
+public class NewAgency implements Subject{
+	
+	@Override
+	public void addObserver() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeObserver() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void notifyObserver() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

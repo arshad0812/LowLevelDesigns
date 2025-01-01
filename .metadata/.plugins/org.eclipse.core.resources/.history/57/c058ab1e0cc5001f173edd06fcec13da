@@ -1,0 +1,11 @@
+package Models;
+import Models.subscriber;
+import Models.Observer;
+
+public class main {
+	public static void main(String args[]){
+		NewsAgency agency1=new NewsAgency();
+		
+		Observer sub1=new subscriber("arshad");
+	}
+}

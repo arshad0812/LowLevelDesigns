@@ -1,0 +1,12 @@
+package Models;
+
+public class subscriber implements Observer{
+
+	@Override
+	public void UpdateLatestNews(String latestNews) {
+		// TODO Auto-generated method stub
+		System.out.println("Latest news "+ latestNews+" recieved");
+		
+	}
+
+}

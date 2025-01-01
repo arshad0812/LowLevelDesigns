@@ -1,0 +1,11 @@
+package Models;
+
+public class SmsNotification extends Notification{
+
+	@Override
+	void sendMessage() {
+		// TODO Auto-generated method stub
+		System.out.println("Sms Notifcatio sendedd");
+	}
+
+}

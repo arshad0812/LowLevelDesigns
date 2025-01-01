@@ -1,0 +1,9 @@
+package Dao;
+
+import Models.Notification;
+
+public class NotificationService {
+	
+	public Notification NotifyMessage;
+
+}

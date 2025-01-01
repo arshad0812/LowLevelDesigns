@@ -1,0 +1,7 @@
+package Dao;
+
+public class NotificationService {
+	
+	public Notification NotifyMessage;
+
+}

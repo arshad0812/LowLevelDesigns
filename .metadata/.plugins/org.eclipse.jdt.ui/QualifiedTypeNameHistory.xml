@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="Dao.ProductDao"/>
+    <fullyQualifiedTypeName name="Dao.InvoiceDao"/>
+    <fullyQualifiedTypeName name="Models.Invoice"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="Database.InvoiceDB"/>
+    <fullyQualifiedTypeName name="Printer.InvoicePrinter"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="Models.Product"/>
+    <fullyQualifiedTypeName name="models.CreditCardPayment"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="Dao.PaymentService"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="models.UpiPayment"/>
+    <fullyQualifiedTypeName name="Models.subscriber"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="models.OkCheckBox"/>
+</qualifiedTypeNameHistroy>

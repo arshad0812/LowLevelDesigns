@@ -1,0 +1,21 @@
+package main;
+
+import Dao.NotificationService;
+import models.EmailNotification;
+import models.SmsNotification;
+
+public class main {
+	public static void main(String args[]){
+		System.out.println("Open Closed Principle");
+		
+		NotificationService notificationSer=new NotificationService();
+		
+		
+		EmailNotification email=new EmailNotification();
+		email.send();
+		
+		SmsNotification sms=new SmsNotification();
+		sms.send();
+		
+	}
+}

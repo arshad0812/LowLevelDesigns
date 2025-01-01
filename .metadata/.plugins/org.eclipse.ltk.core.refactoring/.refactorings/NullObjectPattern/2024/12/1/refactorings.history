@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;models.dpg&apos; to &apos;dog&apos;&#x0D;&#x0A;- Original project: &apos;NullObjectPattern&apos;&#x0D;&#x0A;- Original element: &apos;models.dpg&apos;&#x0D;&#x0A;- Renamed element: &apos;models.dog&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;dpg&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;models{dpg.java[dpg" matchStrategy="1" name="dog" qualified="false" references="true" similarDeclarations="false" stamp="1735536599923" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package models;
+
+public class TrafficLight {
+	
+	private TrafficLightState TrafficState;
+	
+	public TrafficLight(TrafficLightState TrafficState){
+		this.TrafficState=TrafficState;
+	}
+
+	public TrafficLightState getTrafficState() {
+		return TrafficState;
+	}
+
+	public void setTrafficState(TrafficLightState trafficState) {
+		TrafficState = trafficState;
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,19 @@
+package models;
+
+public class UserHandler extends Handler{
+
+	
+	
+
+	@Override
+	public boolean handle(Request request) {
+		// TODO Auto-generated method stub
+		
+		if(super.db.isValidUser(request.getName())) {
+			return true;
+		}
+		
+		return false;
+	}
+
+}

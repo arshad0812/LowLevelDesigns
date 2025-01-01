@@ -1,0 +1,11 @@
+package Models;
+
+public class main {
+	public static void main(String args[]){
+		System.out.println("Factory Design Pattern");
+		System.out.println("The Factory Design Pattern is a creational design pattern in object-oriented programming (OOP) that provides an interface for creating objects, but allows subclasses or the client to decide which class to instantiate");
+		
+		
+		
+	}
+}

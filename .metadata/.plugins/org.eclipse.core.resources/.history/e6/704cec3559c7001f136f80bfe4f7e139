@@ -1,0 +1,13 @@
+package models;
+
+public abstract class PhoneState {
+
+	
+	
+	public abstract void PowerButton();
+	
+	public abstract void LockButton();
+	
+
+	
+}

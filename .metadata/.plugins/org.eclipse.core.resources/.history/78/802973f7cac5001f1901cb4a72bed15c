@@ -1,0 +1,22 @@
+package models;
+
+public class UserHandler extends Handler{
+
+	
+	public UserHandler(Handler handler) {
+		super(handler);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public boolean handle(String username, String password) {
+		// TODO Auto-generated method stub
+		
+		if(super.db.isValidUser(username)) {
+			return true;
+		}
+		
+		return false;
+	}
+
+}

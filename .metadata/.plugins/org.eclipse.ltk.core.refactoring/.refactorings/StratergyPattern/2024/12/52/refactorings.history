@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Dao.PaymentSrevicce&apos; to &apos;PaymentService&apos;&#x0D;&#x0A;- Original project: &apos;StratergyPattern&apos;&#x0D;&#x0A;- Original element: &apos;Dao.PaymentSrevicce&apos;&#x0D;&#x0A;- Renamed element: &apos;Dao.PaymentService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PaymentSrevicce&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Dao{PaymentSrevicce.java[PaymentSrevicce" matchStrategy="1" name="PaymentService" qualified="false" references="true" similarDeclarations="false" stamp="1735367574221" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+package main;
+
+import Dao.NotificationService;
+import Models.EmailNotification;
+import Models.Notification;
+
+
+public class main {
+	public static void main(String args[]){
+		
+		System.out.println("Abstractions should not depend on details. Details should depend on abstractions.");
+		Notification EmailMessage=new EmailNotification();
+		
+		NotificationService notificationService=new NotificationService(EmailMessage);
+		notificationService.send("Hii");
+		
+	}
+}

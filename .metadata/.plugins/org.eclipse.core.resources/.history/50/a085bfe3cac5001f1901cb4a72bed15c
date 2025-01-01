@@ -1,0 +1,16 @@
+package models;
+
+abstract public class Handler {
+	public Handler handler;
+	
+	public Database db;
+	
+	public Handler(Handler handler) {
+		this.handler=handler;
+	}
+	
+	public abstract boolean handle(String username,String password);
+	
+	
+	
+}

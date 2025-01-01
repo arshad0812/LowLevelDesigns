@@ -1,0 +1,15 @@
+package models;
+
+public class OffState extends PhoneState{
+
+	@Override
+	public void OnOffState() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+}

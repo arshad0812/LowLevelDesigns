@@ -1,0 +1,19 @@
+package models;
+
+public class AnimalFactory {
+	
+	public static animal GetAnimal(String animal){
+		if(animal.equals("Dog")) {
+			return new dog();
+		}
+		
+		if(animal.equals("Cat")) {
+			return new cat();
+		}
+		
+		
+		return new NullAnimal();
+	}
+	
+
+}

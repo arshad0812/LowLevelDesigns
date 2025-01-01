@@ -1,0 +1,42 @@
+package models;
+
+public class Phone {
+	
+	private PhoneState state;
+	
+	public Phone(){
+		this.state=new OffState();
+	}
+
+	public PhoneState getState() {
+		return state.;
+	}
+
+	public void setState(PhoneState state) {
+		this.state = state;
+	}
+	
+	public String Lock(){
+		return "Phone Locked";
+	}
+	
+	public String unlock() {
+		return "Phone Unlocked";
+	}
+	
+	public String PowerOn(){
+		return "Phone Turned On";
+	}
+	
+	public String PowerOff() {
+		return "Phone Turnedd Off";
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

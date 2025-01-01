@@ -1,0 +1,26 @@
+package models;
+
+public class LockedState extends PhoneState {
+
+	public LockedState(Phone phone) {
+		super(phone);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+	@Override
+	public void PowerButton() {
+		// TODO Auto-generated method stub
+		System.out.println();
+	}
+
+
+
+	@Override
+	public void LockButton() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

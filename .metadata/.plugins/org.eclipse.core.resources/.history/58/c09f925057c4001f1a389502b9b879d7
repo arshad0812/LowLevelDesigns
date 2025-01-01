@@ -1,0 +1,16 @@
+package main;
+
+import Dao.NotificationService;
+import Models.EmailNotification;
+import Models.Notification;
+
+
+public class main {
+	public static void main(String args[]){
+		Notification EmailMessage=new EmailNotification();
+		
+		NotificationService notificationService=new NotificationService(EmailMessage);
+		notificationService.send("Hii");
+		
+	}
+}

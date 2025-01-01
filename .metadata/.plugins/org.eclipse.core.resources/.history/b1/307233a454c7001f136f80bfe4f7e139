@@ -1,0 +1,12 @@
+package models;
+
+public class GreenLightState implements TrafficLightState{
+
+	@Override
+	public void handle(TrafficLight context) {
+		// TODO Auto-generated method stub
+		System.out.println("Green light: Go!");
+		
+	}
+
+}

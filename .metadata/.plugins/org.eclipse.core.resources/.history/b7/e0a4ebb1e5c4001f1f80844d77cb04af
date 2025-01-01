@@ -1,0 +1,19 @@
+package models;
+
+public class UpiPayment implements payment {
+
+	private String upiId;
+	private String upiPin;
+	
+	public UpiPayment(String upiId,String upiPin) {
+		this.upiId=upiId;
+		this.upiPin=upiPin;
+	}
+	@Override
+	public void pay(double amount) {
+		System.out.println("Amount Payed through Upi");
+		// TODO Auto-generated method stub
+		
+	}
+
+}

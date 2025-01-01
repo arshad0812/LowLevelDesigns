@@ -1,0 +1,9 @@
+package models;
+
+public abstract class PhoneState {
+
+	public Phone phone;
+	
+	public abstract String OnHome();
+	public abstract String OnOffOn();
+}

@@ -1,0 +1,12 @@
+package Models;
+
+public class SUV implements car{
+	
+	
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
